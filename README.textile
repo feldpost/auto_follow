@@ -6,12 +6,22 @@ h3. Dependencies
 
 h3. Configuration
 
+Rename both *yml.sample* files in @config/@:
+	@@@
+	cp config/accounts.yml.sample config/accounts.yml
+	cp config/blacklist.yml.sample config/blacklist.yml
+	@@@
+
 Set-up one or multiple accounts in @./config/accounts.yaml@:
 
 	username: password
 
 Use @./config/blacklist.yml@ to enter a list of twitter usernames that should not be auto-followed. Should you already follow any black-listed users, they will be automatically unfollowed. 
 
-h3. Usage:
+h3. Usage
 	
 	@ruby ./auto_follow.rb@
+	
+h3. Notes
+
+While auto_follow searches through complete list of pages for friends and followers, I'm not sure how well it will perform once you get into really high follower counts (5000+)
