@@ -7,10 +7,9 @@ h3. Dependencies
 h3. Configuration
 
 Rename both *yml.sample* files in @config/@:
-	@@@
-	cp config/accounts.yml.sample config/accounts.yml
-	cp config/blacklist.yml.sample config/blacklist.yml
-	@@@
+
+	@cp config/accounts.yml.sample config/accounts.yml@
+	@cp config/blacklist.yml.sample config/blacklist.yml@
 
 Set-up one or multiple accounts in @./config/accounts.yaml@:
 
