@@ -10,7 +10,7 @@ Set-up one or multiple accounts in @./config/accounts.yaml@:
 
 	username: password
 
-Use ./config/blacklist.yml to enter a list of twitter usernames that should not be auto-followed. Should you already follow any black-listed users, they will be automatically unfollowed. 
+Use @./config/blacklist.yml@ to enter a list of twitter usernames that should not be auto-followed. Should you already follow any black-listed users, they will be automatically unfollowed. 
 
 h3. Usage:
 	
