@@ -17,7 +17,7 @@ class AutoFollower
   end
 
   def accounts
-    @accounts ||= configuration_for :accounts
+    @accounts ||= configuration_for(:accounts) || []
   end
 
   private

@@ -36,7 +36,7 @@ class TwitterAccount
   end
 
   def blacklisted_users
-    @blacklisted_users ||= configuration_for :blacklist
+    @blacklisted_users ||= configuration_for(:blacklist) || []
   end
 
   def auto_follow!
